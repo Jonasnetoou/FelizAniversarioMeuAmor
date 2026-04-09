@@ -126,9 +126,11 @@
 
         .photo-card img {
             width: 100%;
-            height: 300px;
-            object-fit: cover;
+            height: auto;
+            min-height: 250px;
+            object-fit: contain;
             display: block;
+            background: #f8f8f8;
         }
 
         /* Mensagens de amor */
@@ -302,7 +304,12 @@
             }
 
             .photo-card img {
-                height: 250px;
+                height: auto;
+                min-height: 200px;
+            }
+
+            .photo-gallery {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -363,7 +370,7 @@
         Que esse novo ano venha com muitas conquistas, saúde, felicidade e várias histórias boas pra gente rir depois.
     </p>
     <p>
-        <span class="highlight">E pode ficar tranquila: eu continuo aqui, firme, sendo seu caos favorito.</span>
+        <span class="highlight">E pode ficar tranquila: eu continuo aqui, firme, sendo seu bonito favorito.</span>
     </p>
     <p>
         Feliz aniversário, meu amor 🎂🎉💖
